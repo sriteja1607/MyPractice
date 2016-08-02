@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3265E0191D416EF3003440CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3265E0181D416EF3003440CA /* main.m */; };
+		3265E01C1D416EF3003440CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3265E01B1D416EF3003440CA /* AppDelegate.m */; };
+		3265E01F1D416EF3003440CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3265E01E1D416EF3003440CA /* ViewController.m */; };
+		3265E0221D416EF3003440CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3265E0201D416EF3003440CA /* Main.storyboard */; };
+		3265E0251D416EF4003440CA /* BookATicket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3265E0231D416EF4003440CA /* BookATicket.xcdatamodeld */; };
+		3265E0271D416EF4003440CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3265E0261D416EF4003440CA /* Assets.xcassets */; };
+		3265E02A1D416EF4003440CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3265E0281D416EF4003440CA /* LaunchScreen.storyboard */; };
+		3265E0351D416EF4003440CA /* BookATicketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3265E0341D416EF4003440CA /* BookATicketTests.m */; };
+		3265E0401D416EF4003440CA /* BookATicketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3265E03F1D416EF4003440CA /* BookATicketUITests.m */; };
+		3265E04E1D417051003440CA /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3265E04D1D417051003440CA /* images.jpeg */; };
+		3265E0501D417057003440CA /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3265E04F1D417057003440CA /* download.jpeg */; };
+		3265E0521D41705C003440CA /* download 11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3265E0511D41705C003440CA /* download 11.jpeg */; };
+		3265E0541D417060003440CA /* download (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3265E0531D417060003440CA /* download (1).jpeg */; };
+		3265E0581D41729E003440CA /* AirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3265E0571D41729E003440CA /* AirViewController.m */; };
+		3265E05B1D41C7D6003440CA /* airWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3265E05A1D41C7D6003440CA /* airWebViewController.m */; };
+		3265E05F1D42028D003440CA /* RailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3265E05E1D42028D003440CA /* RailViewController.m */; };
+		3265E09E1D46F311003440CA /* flight.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3265E09D1D46F311003440CA /* flight.jpeg */; };
+		3265E0A11D46F7AA003440CA /* railWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3265E0A01D46F7AA003440CA /* railWebViewController.m */; };
+		3265E0A51D4817B9003440CA /* roadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3265E0A41D4817B9003440CA /* roadViewController.m */; };
+		3265E0A81D4817CA003440CA /* roadWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3265E0A71D4817CA003440CA /* roadWebViewController.m */; };
+		32AB127A1D49339300F2A715 /* movieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AB12791D49339300F2A715 /* movieViewController.m */; };
+		32AB127D1D496D6600F2A715 /* Cinemark.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AB127C1D496D6600F2A715 /* Cinemark.png */; };
+		32AB127F1D496D7200F2A715 /* pvr.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 32AB127E1D496D7200F2A715 /* pvr.jpeg */; };
+		32C1A84E1D511A0500AEB57C /* movieWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C1A84D1D511A0500AEB57C /* movieWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3265E0311D416EF4003440CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3265E00C1D416EF3003440CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3265E0131D416EF3003440CA;
+			remoteInfo = BookATicket;
+		};
+		3265E03C1D416EF4003440CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3265E00C1D416EF3003440CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3265E0131D416EF3003440CA;
+			remoteInfo = BookATicket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3265E0141D416EF3003440CA /* BookATicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookATicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3265E0181D416EF3003440CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3265E01A1D416EF3003440CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3265E01B1D416EF3003440CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3265E01D1D416EF3003440CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3265E01E1D416EF3003440CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3265E0211D416EF3003440CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3265E0241D416EF4003440CA /* BookATicket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookATicket.xcdatamodel; sourceTree = "<group>"; };
+		3265E0261D416EF4003440CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3265E0291D416EF4003440CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3265E02B1D416EF4003440CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3265E0301D416EF4003440CA /* BookATicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookATicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3265E0341D416EF4003440CA /* BookATicketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookATicketTests.m; sourceTree = "<group>"; };
+		3265E0361D416EF4003440CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3265E03B1D416EF4003440CA /* BookATicketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookATicketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3265E03F1D416EF4003440CA /* BookATicketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookATicketUITests.m; sourceTree = "<group>"; };
+		3265E0411D416EF4003440CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3265E04D1D417051003440CA /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		3265E04F1D417057003440CA /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		3265E0511D41705C003440CA /* download 11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download 11.jpeg"; sourceTree = "<group>"; };
+		3265E0531D417060003440CA /* download (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (1).jpeg"; sourceTree = "<group>"; };
+		3265E0561D41729E003440CA /* AirViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirViewController.h; sourceTree = "<group>"; };
+		3265E0571D41729E003440CA /* AirViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirViewController.m; sourceTree = "<group>"; };
+		3265E0591D41C7D6003440CA /* airWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = airWebViewController.h; sourceTree = "<group>"; };
+		3265E05A1D41C7D6003440CA /* airWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = airWebViewController.m; sourceTree = "<group>"; };
+		3265E05D1D42028D003440CA /* RailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RailViewController.h; sourceTree = "<group>"; };
+		3265E05E1D42028D003440CA /* RailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RailViewController.m; sourceTree = "<group>"; };
+		3265E09D1D46F311003440CA /* flight.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flight.jpeg; sourceTree = "<group>"; };
+		3265E09F1D46F7AA003440CA /* railWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = railWebViewController.h; sourceTree = "<group>"; };
+		3265E0A01D46F7AA003440CA /* railWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = railWebViewController.m; sourceTree = "<group>"; };
+		3265E0A31D4817B9003440CA /* roadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roadViewController.h; sourceTree = "<group>"; };
+		3265E0A41D4817B9003440CA /* roadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = roadViewController.m; sourceTree = "<group>"; };
+		3265E0A61D4817CA003440CA /* roadWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roadWebViewController.h; sourceTree = "<group>"; };
+		3265E0A71D4817CA003440CA /* roadWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = roadWebViewController.m; sourceTree = "<group>"; };
+		32AB12781D49339300F2A715 /* movieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movieViewController.h; sourceTree = "<group>"; };
+		32AB12791D49339300F2A715 /* movieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = movieViewController.m; sourceTree = "<group>"; };
+		32AB127C1D496D6600F2A715 /* Cinemark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cinemark.png; sourceTree = "<group>"; };
+		32AB127E1D496D7200F2A715 /* pvr.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pvr.jpeg; sourceTree = "<group>"; };
+		32C1A84C1D511A0500AEB57C /* movieWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movieWebViewController.h; sourceTree = "<group>"; };
+		32C1A84D1D511A0500AEB57C /* movieWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = movieWebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3265E0111D416EF3003440CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3265E02D1D416EF4003440CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3265E0381D416EF4003440CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3265E00B1D416EF3003440CA = {
+			isa = PBXGroup;
+			children = (
+				3265E0161D416EF3003440CA /* BookATicket */,
+				3265E0331D416EF4003440CA /* BookATicketTests */,
+				3265E03E1D416EF4003440CA /* BookATicketUITests */,
+				3265E0151D416EF3003440CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3265E0151D416EF3003440CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3265E0141D416EF3003440CA /* BookATicket.app */,
+				3265E0301D416EF4003440CA /* BookATicketTests.xctest */,
+				3265E03B1D416EF4003440CA /* BookATicketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3265E0161D416EF3003440CA /* BookATicket */ = {
+			isa = PBXGroup;
+			children = (
+				3265E09D1D46F311003440CA /* flight.jpeg */,
+				32AB127C1D496D6600F2A715 /* Cinemark.png */,
+				32AB127E1D496D7200F2A715 /* pvr.jpeg */,
+				3265E04D1D417051003440CA /* images.jpeg */,
+				3265E04F1D417057003440CA /* download.jpeg */,
+				3265E0511D41705C003440CA /* download 11.jpeg */,
+				3265E0531D417060003440CA /* download (1).jpeg */,
+				3265E01A1D416EF3003440CA /* AppDelegate.h */,
+				3265E01B1D416EF3003440CA /* AppDelegate.m */,
+				32AB12771D49337A00F2A715 /* Movies */,
+				3265E0A21D48164E003440CA /* RoadWays */,
+				3265E0551D41721A003440CA /* Airways */,
+				3265E05C1D420190003440CA /* Raiways */,
+				3265E01D1D416EF3003440CA /* ViewController.h */,
+				3265E01E1D416EF3003440CA /* ViewController.m */,
+				3265E0201D416EF3003440CA /* Main.storyboard */,
+				3265E0261D416EF4003440CA /* Assets.xcassets */,
+				3265E0281D416EF4003440CA /* LaunchScreen.storyboard */,
+				3265E02B1D416EF4003440CA /* Info.plist */,
+				3265E0231D416EF4003440CA /* BookATicket.xcdatamodeld */,
+				3265E0171D416EF3003440CA /* Supporting Files */,
+			);
+			path = BookATicket;
+			sourceTree = "<group>";
+		};
+		3265E0171D416EF3003440CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3265E0181D416EF3003440CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3265E0331D416EF4003440CA /* BookATicketTests */ = {
+			isa = PBXGroup;
+			children = (
+				3265E0341D416EF4003440CA /* BookATicketTests.m */,
+				3265E0361D416EF4003440CA /* Info.plist */,
+			);
+			path = BookATicketTests;
+			sourceTree = "<group>";
+		};
+		3265E03E1D416EF4003440CA /* BookATicketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3265E03F1D416EF4003440CA /* BookATicketUITests.m */,
+				3265E0411D416EF4003440CA /* Info.plist */,
+			);
+			path = BookATicketUITests;
+			sourceTree = "<group>";
+		};
+		3265E0551D41721A003440CA /* Airways */ = {
+			isa = PBXGroup;
+			children = (
+				3265E0561D41729E003440CA /* AirViewController.h */,
+				3265E0571D41729E003440CA /* AirViewController.m */,
+				3265E0591D41C7D6003440CA /* airWebViewController.h */,
+				3265E05A1D41C7D6003440CA /* airWebViewController.m */,
+			);
+			name = Airways;
+			sourceTree = "<group>";
+		};
+		3265E05C1D420190003440CA /* Raiways */ = {
+			isa = PBXGroup;
+			children = (
+				3265E05D1D42028D003440CA /* RailViewController.h */,
+				3265E05E1D42028D003440CA /* RailViewController.m */,
+				3265E09F1D46F7AA003440CA /* railWebViewController.h */,
+				3265E0A01D46F7AA003440CA /* railWebViewController.m */,
+			);
+			name = Raiways;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3265E0A21D48164E003440CA /* RoadWays */ = {
+			isa = PBXGroup;
+			children = (
+				3265E0A31D4817B9003440CA /* roadViewController.h */,
+				3265E0A41D4817B9003440CA /* roadViewController.m */,
+				3265E0A61D4817CA003440CA /* roadWebViewController.h */,
+				3265E0A71D4817CA003440CA /* roadWebViewController.m */,
+			);
+			name = RoadWays;
+			sourceTree = "<group>";
+		};
+		32AB12771D49337A00F2A715 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				32AB12781D49339300F2A715 /* movieViewController.h */,
+				32AB12791D49339300F2A715 /* movieViewController.m */,
+				32C1A84C1D511A0500AEB57C /* movieWebViewController.h */,
+				32C1A84D1D511A0500AEB57C /* movieWebViewController.m */,
+			);
+			name = Movies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3265E0131D416EF3003440CA /* BookATicket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3265E0441D416EF4003440CA /* Build configuration list for PBXNativeTarget "BookATicket" */;
+			buildPhases = (
+				3265E0101D416EF3003440CA /* Sources */,
+				3265E0111D416EF3003440CA /* Frameworks */,
+				3265E0121D416EF3003440CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookATicket;
+			productName = BookATicket;
+			productReference = 3265E0141D416EF3003440CA /* BookATicket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3265E02F1D416EF4003440CA /* BookATicketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3265E0471D416EF4003440CA /* Build configuration list for PBXNativeTarget "BookATicketTests" */;
+			buildPhases = (
+				3265E02C1D416EF4003440CA /* Sources */,
+				3265E02D1D416EF4003440CA /* Frameworks */,
+				3265E02E1D416EF4003440CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3265E0321D416EF4003440CA /* PBXTargetDependency */,
+			);
+			name = BookATicketTests;
+			productName = BookATicketTests;
+			productReference = 3265E0301D416EF4003440CA /* BookATicketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3265E03A1D416EF4003440CA /* BookATicketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3265E04A1D416EF4003440CA /* Build configuration list for PBXNativeTarget "BookATicketUITests" */;
+			buildPhases = (
+				3265E0371D416EF4003440CA /* Sources */,
+				3265E0381D416EF4003440CA /* Frameworks */,
+				3265E0391D416EF4003440CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3265E03D1D416EF4003440CA /* PBXTargetDependency */,
+			);
+			name = BookATicketUITests;
+			productName = BookATicketUITests;
+			productReference = 3265E03B1D416EF4003440CA /* BookATicketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3265E00C1D416EF3003440CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = teja;
+				TargetAttributes = {
+					3265E0131D416EF3003440CA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 37B3DTEVW5;
+					};
+					3265E02F1D416EF4003440CA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 37B3DTEVW5;
+						TestTargetID = 3265E0131D416EF3003440CA;
+					};
+					3265E03A1D416EF4003440CA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 37B3DTEVW5;
+						TestTargetID = 3265E0131D416EF3003440CA;
+					};
+				};
+			};
+			buildConfigurationList = 3265E00F1D416EF3003440CA /* Build configuration list for PBXProject "BookATicket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3265E00B1D416EF3003440CA;
+			productRefGroup = 3265E0151D416EF3003440CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3265E0131D416EF3003440CA /* BookATicket */,
+				3265E02F1D416EF4003440CA /* BookATicketTests */,
+				3265E03A1D416EF4003440CA /* BookATicketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3265E0121D416EF3003440CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AB127F1D496D7200F2A715 /* pvr.jpeg in Resources */,
+				3265E02A1D416EF4003440CA /* LaunchScreen.storyboard in Resources */,
+				3265E0541D417060003440CA /* download (1).jpeg in Resources */,
+				3265E04E1D417051003440CA /* images.jpeg in Resources */,
+				3265E0501D417057003440CA /* download.jpeg in Resources */,
+				32AB127D1D496D6600F2A715 /* Cinemark.png in Resources */,
+				3265E0271D416EF4003440CA /* Assets.xcassets in Resources */,
+				3265E09E1D46F311003440CA /* flight.jpeg in Resources */,
+				3265E0521D41705C003440CA /* download 11.jpeg in Resources */,
+				3265E0221D416EF3003440CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3265E02E1D416EF4003440CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3265E0391D416EF4003440CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3265E0101D416EF3003440CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AB127A1D49339300F2A715 /* movieViewController.m in Sources */,
+				3265E05B1D41C7D6003440CA /* airWebViewController.m in Sources */,
+				3265E0581D41729E003440CA /* AirViewController.m in Sources */,
+				3265E0251D416EF4003440CA /* BookATicket.xcdatamodeld in Sources */,
+				32C1A84E1D511A0500AEB57C /* movieWebViewController.m in Sources */,
+				3265E01F1D416EF3003440CA /* ViewController.m in Sources */,
+				3265E01C1D416EF3003440CA /* AppDelegate.m in Sources */,
+				3265E0A81D4817CA003440CA /* roadWebViewController.m in Sources */,
+				3265E05F1D42028D003440CA /* RailViewController.m in Sources */,
+				3265E0A51D4817B9003440CA /* roadViewController.m in Sources */,
+				3265E0191D416EF3003440CA /* main.m in Sources */,
+				3265E0A11D46F7AA003440CA /* railWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3265E02C1D416EF4003440CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3265E0351D416EF4003440CA /* BookATicketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3265E0371D416EF4003440CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3265E0401D416EF4003440CA /* BookATicketUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3265E0321D416EF4003440CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3265E0131D416EF3003440CA /* BookATicket */;
+			targetProxy = 3265E0311D416EF4003440CA /* PBXContainerItemProxy */;
+		};
+		3265E03D1D416EF4003440CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3265E0131D416EF3003440CA /* BookATicket */;
+			targetProxy = 3265E03C1D416EF4003440CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3265E0201D416EF3003440CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3265E0211D416EF3003440CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3265E0281D416EF4003440CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3265E0291D416EF4003440CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3265E0421D416EF4003440CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3265E0431D416EF4003440CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3265E0451D416EF4003440CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BookATicket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..BookATicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3265E0461D416EF4003440CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BookATicket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..BookATicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3265E0481D416EF4003440CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BookATicketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..BookATicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookATicket.app/BookATicket";
+			};
+			name = Debug;
+		};
+		3265E0491D416EF4003440CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BookATicketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..BookATicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookATicket.app/BookATicket";
+			};
+			name = Release;
+		};
+		3265E04B1D416EF4003440CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BookATicketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..BookATicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BookATicket;
+			};
+			name = Debug;
+		};
+		3265E04C1D416EF4003440CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BookATicketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..BookATicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BookATicket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3265E00F1D416EF3003440CA /* Build configuration list for PBXProject "BookATicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3265E0421D416EF4003440CA /* Debug */,
+				3265E0431D416EF4003440CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3265E0441D416EF4003440CA /* Build configuration list for PBXNativeTarget "BookATicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3265E0451D416EF4003440CA /* Debug */,
+				3265E0461D416EF4003440CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3265E0471D416EF4003440CA /* Build configuration list for PBXNativeTarget "BookATicketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3265E0481D416EF4003440CA /* Debug */,
+				3265E0491D416EF4003440CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3265E04A1D416EF4003440CA /* Build configuration list for PBXNativeTarget "BookATicketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3265E04B1D416EF4003440CA /* Debug */,
+				3265E04C1D416EF4003440CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3265E0231D416EF4003440CA /* BookATicket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3265E0241D416EF4003440CA /* BookATicket.xcdatamodel */,
+			);
+			currentVersion = 3265E0241D416EF4003440CA /* BookATicket.xcdatamodel */;
+			path = BookATicket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3265E00C1D416EF3003440CA /* Project object */;
+}
